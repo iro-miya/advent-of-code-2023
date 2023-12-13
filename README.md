@@ -26,3 +26,11 @@ Again, I focused on a simpler code over an efficient one. You could do everythin
 `deno run --allow-read day-3/part-2.ts`
 
 Cool solution with a bunch of generator functions! Much nicer than a long hellish loop with labels. I was enthusiastically telling the people around me about JavaScript generator functions while working on that.
+
+## [Day 4](https://adventofcode.com/2023/day/3)
+
+
+`deno run --allow-read day-4/part-1.ts`
+`deno run --allow-read day-4/part-2.ts`
+
+Way easier than day 3, but this puzzle is pretty cute. Glad that I found the trick to compute card copies in O(1), without duplicating them!
