@@ -27,10 +27,17 @@ Again, I focused on a simpler code over an efficient one. You could do everythin
 
 Cool solution with a bunch of generator functions! Much nicer than a long hellish loop with labels. I was enthusiastically telling the people around me about JavaScript generator functions while working on that.
 
-## [Day 4](https://adventofcode.com/2023/day/3)
+## [Day 4](https://adventofcode.com/2023/day/4)
 
 
 `deno run --allow-read day-4/part-1.ts`
 `deno run --allow-read day-4/part-2.ts`
 
 Way easier than day 3, but this puzzle is pretty cute. Glad that I found the trick to compute card copies in O(1), without duplicating them!
+
+## [Day 5](https://adventofcode.com/2023/day/5)
+
+`deno run --allow-read day-5/part-1.ts`
+`deno run --allow-read day-5/part-2.ts`
+
+Part 1 was pretty easy, but part 2 was harsh...as the input turns out to be ranges, so you have to do some logic with ranges to map the numbers within them around. To make sure I was doing it right, *I wrote tests* for two essential functions that deal with operations on ranges of integers (intersection and difference), which you can run with `deno test`. Whew...
